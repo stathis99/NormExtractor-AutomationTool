@@ -6,9 +6,7 @@ Our project : https://www.youtube.com/watch?v=w-VBJzF32yk&t=2s&ab_channel=Stathi
 
 [poster.pdf](https://github.com/dsp-norm-extractor/.github/files/14156375/poster.pdf)
 
-[Automated Construction of Formal Normative Models A Machine Learning Approach for Natural Language Interpretation.pdf](https://github.com/dsp-norm-extractor/.github/files/14156400/Automated.Construction.of.Formal.Normative.Models.A.Machine.Learning.Approach.for.Natural.Language.Interpretation.pdf)
 
-<!--
 
 **Here are some ideas to get you started:**
 
