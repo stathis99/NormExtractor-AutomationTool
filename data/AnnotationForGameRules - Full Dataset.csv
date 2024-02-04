@@ -1,0 +1,166 @@
+Sentence,Label,tokens,srl_tags
+Bingo is a classic card game for four of more players.,Fact,"['Bingo', 'is', 'a', 'classic', 'card', 'game', 'for', 'four', 'or', 'more', 'players', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']
+"
+Bingo uses two standard 52 playing card decks.,Fact,"['Bingo', 'uses', 'two', 'standard', '52', 'playing', 'card', 'decks', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"Before gameplay can begin, a caller must be selected.",Act,"['Before', 'gameplay', 'can', 'begin', ',', 'a', 'caller', 'must', 'be', 'selected', '.']
+","['CF', 'CF', 'CF', 'CF', ',', 'Recipient', 'Recipient', 'Action', 'Action', 'Action', '.']
+"
+The player with the lowest card becomes the caller.,Fact,"['The', 'player', 'with', 'the', 'lowest', 'card', 'becomes', 'the', 'caller', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+Ties are broken with repeated drawings.,Fact,"['Ties', 'are', 'broken', 'with', 'repeated', 'drawings', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', '.']"
+"The caller shuffles both decks and then passes out five cards, faced up, to each player.",Act,"['The', 'caller', 'shuffles', 'both', 'decks', 'and', 'then', 'passes', 'out', 'five', 'cards', ',', 'faced', 'up', ',', 'to', 'each', 'player', '.']
+","['Actor', 'Actor', 'Action', 'Object', 'Object', 'O', 'O', 'Action', 'Action', 'Object', 'Object', ',', 'O', 'O', ',', 'O', 'Recipient', 'Recipient',  '.']
+"
+The other deck is just for the caller.,Fact,"['The', 'other', 'deck', 'is', 'just', 'for', 'the', 'caller', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"When a player has all of their cards faced down, they shout “Bingo!” and win the round.",Act,"['When', 'a', 'player', 'has', 'all', 'of', 'their', 'cards', 'faced', 'down', ',', 'they', 'shout', '“Bingo!”', 'and', 'win', 'the', 'round', '.']
+","['PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', ',', 'Actor', 'Action', 'O', 'O', 'Action', 'Object', 'Object', '.']
+"
+Casino is a classic card game for 2 to 4 people and is played with a standard 52 card deck. ,Fact,"['Casino', 'is', 'a', 'classic', 'card', 'game', 'for', '2', 'to', '4', 'people', 'and', 'is', 'played', 'with', 'a', 'standard', '52', 'card', 'deck', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+The objective of Casino is to be the first player to win 21 points.,Fact,"['The', 'objective', 'of', 'Casino', 'is', 'to', 'be', 'the', 'first', 'player', 'to', 'win', '21', 'points', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"Before gameplay can begin, a dealer must be selected.",Act,"['Before', 'gameplay', 'can', 'begin', ',', 'a', 'dealer', 'must', 'be', 'selected', '.']","['CF', 'CF', 'CF', 'CF', ',', 'Recipient', 'Recipient', 'Action', 'Action', 'Action', '.']
+"
+The player with the lowest card becomes the dealer.,Fact,"['The', 'player', 'with', 'the', 'lowest', 'card', 'becomes', 'the', 'dealer', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']
+"
+Ties are broken with repeated drawings.,Fact,"['Ties', 'are', 'broken', 'with', 'repeated', 'drawings', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', '.']
+"
+"The dealer then deals two cards to their opponents, two cards to the middle, and two cards to themselves.",Act,"['The', 'dealer', 'then', 'deals', 'two', 'cards', 'to', 'their', 'opponents', ',', 'two', 'cards', 'to', 'the', 'middle', ',', 'and', 'two', 'cards', 'to', 'themselves', '.']
+","['Actor', 'Actor', 'O', 'Action', 'Object', 'Object', 'O', 'Recipient', 'Recipient', ',', 'Object', 'Object', 'O', 'Recipient', 'Recipient', ',', 'O', 'Object', 'Object', 'O', 'Recipient', '.']
+"
+They do this twice so that everybody has four cards.,Act,"['They', 'do', 'this', 'twice', 'so', 'that', 'everybody', 'has', 'four', 'cards', '.']","['Actor', 'Action', 'Object', 'O', 'O', 'O', 'O', 'O', 'O', 'O', '.']
+"
+The four middle cards are faced up.,Fact,"['The', 'four', 'middle', 'cards', 'are', 'faced', 'up', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', '.']
+"
+The remaining deck forms the stock.,Fact,"['The', 'remaining', 'deck', 'forms', 'the', 'stock', '.']","['F', 'F', 'F', 'F', 'F', 'F', '.']
+"
+Players win cards by matching cards in the middle with cards from their hands.,Act,"['Players', 'win', 'cards', 'by', 'matching', 'cards', 'in', 'the', 'middle', 'with', 'cards', 'from', 'their', 'hands', '.']","['Actor', 'Action', 'Object', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', '.']
+"
+The other players then have an opportunity to take the called 5 if they have a 5 in their hand.,Act,"['The', 'other', 'players', 'then', 'have', 'an', 'opportunity', 'to', 'to', 'take', 'the', 'called', '5', 'if', 'they', 'have', 'a', '5', 'in', 'their', 'hand', '.']","[""Actor"", ""Actor"", ""Actor"", ""O"", ""Action"", ""Action"", ""Action"", ""Action"", ""Action"", ""Object"", ""Object"", ""Object"", ""PR"", ""PR"", ""PR"", ""PR"", ""PR"", ""PR"", ""PR"", ""PR"", "".""]"
+"If they don't, then on the original player's next turn, they may use their other 5 to take the two middle 5s.",Act,"['If', 'they', ""don't"", ',', 'then', 'on', 'the', 'original', 'player's', 'next', 'turn', ',', 'they', 'may', 'use', 'their', 'other', '5', 'to', 'take', 'the', 'two', 'middle', '5s', '.']
+","['PR', 'PR', ""PR"", ',', 'O', 'O', 'O', 'O', 'O', 'O', 'O', ',', 'Actor', 'Action', 'Action', 'Object', 'Object', 'Object', 'Action', 'Action', 'Object', 'Object', 'Object', 'Object', '.']
+"
+"In Casino, Aces are worth 1.",Fact,"['In', 'Casino', ',', 'Aces', 'are', 'worth', '1', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', '.']"
+"Concentration, or Memory, is a classic card game for 2 or more players.",Fact,"['Concentration,', 'or', 'Memory,', 'is', 'a', 'classic', 'card', 'game', 'for', '2', 'or', 'more', 'players.', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+It is played with either a standard 52 playing card deck or a specialty deck.,Fact,"['It', 'is', 'played', 'with', 'either', 'a', 'standard', '52', 'playing', 'card', 'deck', 'or', 'a', 'specialty', 'deck.', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+The objective is to be the player with the most matched pairs.,Fact,"['The', 'objective', 'is', 'to', 'be', 'the', 'player', 'with', 'the', 'most', 'matched', 'pairs.', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+The players assemble in a circle and the dealer shuffles the cards.,Act,"['The', 'players', 'assemble', 'in', 'a', 'circle', 'and', 'the', 'dealer', 'shuffles', 'the', 'cards', '.']","[""Actor"", ""Actor"", ""Action"", ""O"", ""Object"", ""Object"", ""O"", ""Actor"", ""Actor"", ""Action"", ""Object"", ""Object"", '.']"
+"The player to the dealer’s immediate right cuts the shuffled deck and the dealer then passes the cards out face down, clockwise, and one at a time.",Act,"['The', 'player', 'to', 'the', 'dealer’s', 'immediate', 'right', 'cuts', 'the', 'shuffled', 'deck', 'and', 'the', 'dealer', 'then', 'passes', 'the', 'cards', 'out', 'face', 'down,', 'clockwise,', 'and', 'one', 'at', 'a', 'time', '.']","[""Actor"", ""Actor"", ""Actor"", ""Actor"", ""Actor"", ""Actor"", ""Actor"", ""Action"", ""Object"", ""Object"", ""Object"", ""O"", ""Actor"", ""Actor"", ""O"", ""Action"", ""Object"", ""Object"", ""Action"", ""O"", ""O"", ""O"", ""O"", ""O"", ""O"", ""O"", ""O"", '.']"
+Conquian is a two-player rummy type game and is played with standard playing cards.,Fact,"['Conquian', 'is', 'a', 'two-player', 'rummy', 'type', 'game', 'and', 'is', 'played', 'with', 'standard', 'playing', 'cards', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+"In Conquian, the 10s, 9s, and 8s are removed form a 40-card deck.",Act,"['In', 'Conquian', ',', 'the', '10s', ',', '9s', ',', 'and', '8s', 'are', 'removed', 'form', 'a', '40-card', 'deck', '.']
+","['O', 'O', ',', 'Object', 'Object', ',', 'Object', ',', 'O', 'Object', 'Action', 'Action', 'Object', 'Object', 'Object', 'Object', '.']
+"
+"Before the game can begin, an initial dealer must be selected.",Act,"['Before', 'the', 'game', 'can', 'begin', ',', 'an', 'initial', 'dealer', 'must', 'be', 'selected', '.']","['CF', 'CF', 'CF', 'CF', 'CF', ',', 'Recipient', 'Recipient', 'Recipient', 'Action', 'Action', 'Action', '.']
+"
+"To do so, players will pick a random card from a shuffled deck.",Act,"['To', 'do', 'so', ',', 'players', 'will', 'pick', 'a', 'random', 'card', 'from', 'a', 'shuffled', 'deck', '.']","['O', 'O', 'O', ',', 'Actor', 'Action', 'Action', 'Object', 'Object', 'Object', 'Object', 'Object', 'Object', 'Object', '.']
+"
+The player with the lowest card is the dealer.,Fact,"['The', 'player', 'with', 'the', 'lowest', 'card', 'is', 'the', 'dealer', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+The dealer then shuffles the deck and passes out 10 card one by one to each player.,Act,"['The', 'dealer', 'then', 'shuffles', 'the', 'deck', 'and', 'passes', 'out', '10', 'card', 'one', 'by', 'one', 'to', 'each', 'player', '.']","['Actor', 'Actor', 'O', 'Action', 'Object', 'Object', 'O', 'Action', 'Action', 'Object', 'Object', 'PR', 'PR', 'PR', 'Object', 'Object', 'Object', '.']
+"
+The remaining cards form the stock  are placed face down in the middle of the gameplay area.,Act,"['The', 'remaining', 'cards', 'form', 'the', 'stock', 'are', 'placed', 'face', 'down', 'in', 'the', 'middle', 'of', 'the', 'gameplay', 'area', '.']
+","['Object', 'Object', 'Object', 'Object', 'Object', 'Object', 'Action', 'Action', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', '.']
+"
+Players are able to lose their cards by melding.,Fact,"['Players', 'are', 'able', 'to', 'lose', 'their', 'cards', 'by', 'melding', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+A meld is either 3 or 4 cards of the same rank or 3 or more cards of the same suit in sequence.,Fact,"['A', 'meld', 'is', 'either', '3', 'or', '4', 'cards', 'of', 'the', 'same', 'rank', 'or', '3', 'or', 'more', 'cards', 'of', 'the', 'same', 'suit', 'in', 'sequence', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+Gameplay begins with the player opposite of the dealer.,Fact,"['Gameplay', 'begins', 'with', 'the', 'player', 'opposite', 'of', 'the', 'dealer', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"At the start of their turn, players will select a card either from the stock pile or the discard pile.",Act,"['At', 'the', 'start', 'of', 'their', 'turn', ',', 'players', 'will', 'select', 'a', 'card', 'either', 'from', 'the', 'stock', 'pile', 'or', 'the', 'discard', 'pile', '.']
+","['PR', 'PR', 'PR', 'PR', 'PR', 'PR',  ',', 'Actor', 'Action', 'Action', 'Object', 'Object', 'Action', 'Action', 'Action', 'Action', 'Action', 'O', 'Action', 'Action', 'Action', '.']
+"
+The card can only be kept if it can be used in a meld.,Fact,"['The', 'card', 'can', 'only', 'be', 'kept', 'if', 'it', 'can', 'be', 'used', 'in', 'a', 'meld', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"If it can’t, it is placed face up in the discard pile next to the stock pile.",Act,"['If', 'it', 'can’t', ',', 'it', 'is', 'placed', 'face', 'up', 'in', 'the', 'discard', 'pile', 'next', 'to', 'the', 'stock', 'pile', '.']","['PR', 'PR', 'PR', ',', 'Object', 'Action', 'Action', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', '.']"
+"If a player can use the card selected, they may also play any other melds in their hand.",Act,"['If', 'a', 'player', 'can', 'use', 'the', 'card', 'selected', ',', 'they', 'may', 'also', 'play', 'any', 'other', 'melds', 'in', 'their', 'hand', '.']","['PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', ',', 'Actor', 'Action', 'O', 'Action', 'Object', 'Object', 'Object', 'Object', 'Object', 'Object', '.']
+"
+A player’s turn ends with them discarding a card.,Fact,"['A', 'player’s', 'turn', 'ends', 'with', 'them', 'discarding', 'a', 'card', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+The first player to meld eleven cards wins the game.,Fact,"['The', 'first', 'player', 'to', 'meld', 'eleven', 'cards', 'wins', 'the', 'game', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+"If the stock pile runs out, the game ends in a tie",Act,"['If', 'the', 'stock', 'pile', 'runs', 'out', ',', 'the', 'game', 'ends', 'in', 'a', 'tie', '.']","['F', 'F', 'F', 'F', 'F', 'F', ',', 'F', 'F', 'F', 'F', 'F', 'F', '.']
+
+"
+California Jack is a trick-taking game played with four people.,Fact,"['California', 'Jack', 'is', 'a', 'trick-taking', 'game', 'played', 'with', 'four', 'people', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+It uses a standard 52 playing card deck with Aces high and 2s low.,Fact,"['It', 'uses', 'a', 'standard', '52', 'playing', 'card', 'deck', 'with', 'Aces', 'high', 'and', '2s', 'low', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+The objective of California Jack is to get the most tricks.,Fact,"['The', 'objective', 'of', 'California', 'Jack', 'is', 'to', 'get', 'the', 'most', 'tricks', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"Before gameplay can begin, a dealer must be selected.",Act,"['Before', 'gameplay', 'can', 'begin', ',', 'a', 'dealer', 'must', 'be', 'selected', '.']","['CF', 'CF', 'CF', 'CF', ',', 'Recipient', 'Recipient', 'Action', 'Action', 'Action', '.']
+"
+"To do so, players must choose a random card from a shuffled deck.",Duty,"['To', 'do', 'so', ',', 'players', 'must', 'choose', 'a', 'random', 'card', 'from', 'a', 'shuffled', 'deck', '.']","['O', 'O', 'O', ',', 'Actor', 'Action', 'Action', 'Object', 'Object', 'Object', 'Object', 'Object', 'Object', 'Object', '.']
+"
+The player with the lowest card becomes the dealer. ,Fact,"['The', 'player', 'with', 'the', 'lowest', 'card', 'becomes', 'the', 'dealer', '.']","['F', 'player', 'with', 'the', 'lowest', 'card', 'becomes', 'the', 'dealer', '.']
+"
+Ties are broken with repeated drawings.,Fact,"['Ties', 'are', 'broken', 'with', 'repeated', 'drawings', '.']","['F', 'F', 'F', 'F', 'F', 'F', '.']"
+The dealer shuffles the deck and then passes out six cards to each player.,Act,"['The', 'dealer', 'shuffles', 'the', 'deck', 'and', 'then', 'passes', 'out', 'six', 'cards', 'to', 'each', 'player', '.']","['Actor', 'Actor', 'Action', 'Object', 'Object', 'O', 'O', 'Action', 'Action', 'Object', 'Object', 'Recipient', 'Recipient', 'Recipient', '.']
+"
+The remaining deck is placed face up to form the stock. ,Act,"['The', 'remaining', 'deck', 'is', 'placed', 'face', 'up', 'to', 'form', 'the', 'stock', '.']","['Object', 'Object', 'Object', 'Action', 'Action', 'PR', 'PR', 'O', 'O', 'O', 'O', '.']
+"
+The first card showing establishes trump for the round.,Fact,"['The', 'first', 'card', 'showing', 'establishes', 'trump', 'for', 'the', 'round', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"The dealer leads the first card and, going clockwise, players try to follow suit or trump if they can.",Act,"['The', 'dealer', 'leads', 'the', 'first', 'card', 'and', ',', 'going', 'clockwise', ',', 'players', 'try', 'to', 'follow', 'suit', 'or', 'trump', 'if', 'they', 'can', '.']
+","['Actor', 'Actor', 'Action', 'Object', 'Object', 'Object', 'O', ',', 'O', 'O', ',', 'Actor', 'Action', 'Action', 'Action', 'Action', 'O', 'Action', 'PR', 'PR', 'PR', '.']"
+The highest card takes the trick.,Fact,"['The', 'highest', 'card', 'takes', 'the', 'trick', '.']","['F', 'F', 'F', 'F', 'F', 'F', '.']"
+"Starting with the winner of the trick and going clockwise, players take one card from the stock.",Act," ['Starting', 'with', 'the', 'winner', 'of', 'the', 'trick', 'and', 'going', 'clockwise', ',', 'players', 'take', 'one', 'card', 'from', 'the', 'stock', '.']"," ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', ',', 'Actor', 'Action', 'Object', 'Object', 'O', 'O', 'O', '.']"
+The winner then leads the next trick.,Act,"['The', 'winner', 'then', 'leads', 'the', 'next', 'trick', '.']","['Actor', 'Actor', 'PR', 'Action', 'Object', 'Object', 'Object', '.']"
+The round ends when all cards have been played.,Fact,"['The', 'round', 'ends', 'when', 'all', 'cards', 'have', 'been', 'played', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"Players receive 1 point for each Ace of trump, 2 of trump and Jack of trump won in a trick.",Fact,"['Players', 'receive', '1', 'point', 'for', 'each', 'Ace', 'of', 'trump', ',', '2', 'of', 'trump', 'and', 'Jack', 'of', 'trump', 'won', 'in', 'a', 'trick', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+1 point is also awarded to the player who has the highest total number of points in cards,Fact,"['1', 'point', 'is', 'also', 'awarded', 'to', 'the', 'player', 'who', 'has', 'the', 'highest', 'total', 'number', 'of', 'points', 'in', 'cards', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"10 = 10 points, ace = 4, king = 3, queen = 2, jack = 1",Fact,"['10', '=', '10', 'points', ',', 'ace', '=', '4', ',', 'king', '=', '3', ',', 'queen', '=', '2', ',', 'jack', '=', '1']
+
+","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+The first player to reach 10 points wins the game.,Fact,"['The', 'first', 'player', 'to', 'reach', '10', 'points', 'wins', 'the', 'game', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+Players must roll two six-sided dice to move their token that number of spaces.,Duty,"['Players', 'must', 'roll', 'two', 'six-sided', 'dice', 'to', 'move', 'their', 'token', 'that', 'number', 'of', 'spaces', '.']","['Duty Holder', 'Action', 'Action', 'Object', 'Object', 'Object', 'O', 'Action', 'Object', 'Object', 'PR', 'PR', 'PR', 'PR', '.']"
+The player must pay rent to the owner of the property.,Duty,"['The', 'player', 'must', 'pay', 'rent', 'to', 'the', 'owner', 'of', 'the', 'property', '.']","['Duty Holder', 'Duty Holder', 'Action', 'Action', 'O', 'O', 'Claimant', 'Claimant', 'Claimant', 'Claimant', 'Claimant', '.']"
+The player must move their token to the Jail space if they land on the 'Go to Jail' space.,Duty,"['The', 'player', 'must', 'move', 'their', 'token', 'to', 'the', 'Jail', 'space', 'if', 'they', 'land', 'on', 'the', ''Go', 'to', 'Jail'', 'space', '.']","['Duty Holder', 'Duty Holder', 'Action', 'Action', 'Object', 'Object', 'Object', 'Object', 'Object', 'Object', 'PR', 'PR', 'PR', 'PR', 'PR', ''PR', 'PR', 'PR'', 'PR', '.']"
+Players must match the top card of the discard pile by color or number to continue the game.,Duty,"['Players', 'must', 'match', 'the', 'top', 'card', 'of', 'the', 'discard', 'pile', 'by', 'color', 'or', 'number', 'to', 'continue', 'the', 'game', '.']","['Duty Holder', 'Action', 'Action', 'Object', 'Object', 'Object', 'Object', 'Object', 'Object', 'Object', 'O', 'PR', 'O', 'PR', 'O', 'O', 'O', 'O', '.']"
+"The pawn must move forward by one square, but can only capture by diagonally mobing to an occupied square.",Duty,"['The', 'pawn', 'must', 'move', 'forward', 'by', 'one', 'square', ',', 'but', 'can', 'only', 'capture', 'by', 'diagonally', 'moving', 'to', 'an', 'occupied', 'square', '.']","['Duty Holder', 'Duty Holder', 'Action', 'Action', 'Action', 'PR', 'PR', 'PR', ',', 'O', 'O', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', '.']"
+Players must choose one of the to be the banker.,Duty,"['Players', 'must', 'choose', 'one', 'of', 'them', 'to', 'be', 'the', 'banker', '.']","['Duty Holder', 'Action', 'Action', 'Recipient', 'Recipient', 'Recipient', 'O', 'O', 'O', 'O', '.']"
+The game of chess is played on an 8x8 grid.,Fact,"['The', 'game', 'of', 'chess', 'is', 'played', 'on', 'an', '8x8', 'grid', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+Each person must have 7 letters on their hand at all times.,Duty,"['Each', 'person', 'must', 'have', '7', 'letters', 'on', 'their', 'hand', 'at', 'all', 'times', '.']","['Duty Holder', 'Duty Holder', 'Action', 'Action', 'Object', 'Object', 'Object', 'Object', 'Object', 'O', 'O', 'O', '.']"
+A standard deck of playing cards consists of 52 cards.,Fact,"['A', 'standard', 'deck', 'of', 'playing', 'cards', 'consists', 'of', '52', 'cards', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+A standard backgammon board has 24 points.,Fact,"['A', 'standard', 'backgammon', 'board', 'has', '24', 'points', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"In Scrabble, there are 100 letter tiles, each with a point value.",Fact,"['In', 'Scrabble', ',', 'there', 'are', '100', 'letter', 'tiles', ',', 'each', 'with', 'a', 'point', 'value', '.']","['F', 'F', ',', 'F', 'F', 'F', 'F', 'F', ',', 'F', 'F', 'F', 'F', 'F', '.']"
+"The king can only move one square in any direction - up, down, to the sides, and diagonally.",Fact,"['The', 'king', 'can', 'only', 'move', 'one', 'square', 'in', 'any', 'direction', '-', 'up', ',', 'down', ',', 'to', 'the', 'sides', ',', 'and', 'diagonally', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F',  'F',  'F',  'F', '-',  'F', ',', 'F', ',', 'F', 'F', 'F' ',', 'F', 'F', '.']"
+"The queen can move in any one straight direction - forward, backward, sideways, or diagonally - as far as possible as long as she does not move through any of her own pieces.",Fact,"['The', 'queen', 'can', 'move', 'in', 'any', 'one', 'straight', 'direction', '-', 'forward', ',', 'backward', ',', 'sideways', ',', 'or', 'diagonally', '-', 'as', 'far', 'as', 'possible', 'as', 'long', 'as', 'she', 'does', 'not', 'move', 'through', 'any', 'of', 'her', 'own', 'pieces', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '-', 'F', ',', 'F', ',', 'F', ',', 'F', 'F', '-', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']
+"
+The primary objective is to accumulate victory points through strategic gameplay,Fact,"['The', 'primary', 'objective', 'is', 'to', 'accumulate', 'victory', 'points', 'through', 'strategic', 'gameplay']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+Scoring is based on achieving specific milestones or objectives outlined in the game rules,Fact,"['Scoring', 'is', 'based', 'on', 'achieving', 'specific', 'milestones', 'or', 'objectives', 'outlined', 'in', 'the', 'game', 'rules']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+The game concludes when a player meets the victory conditions or a predetermined end-game scenario occurs,Fact,"['The', 'game', 'concludes', 'when', 'a', 'player', 'meets', 'the', 'victory', 'conditions', 'or', 'a', 'predetermined', 'end-game', 'scenario', 'occurs']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+"Penalties may be applied for rule violations, as specified in the penalty section of the rulebook",Fact,"['Penalties', 'may', 'be', 'applied', 'for', 'rule', 'violations', ',', 'as', 'specified', 'in', 'the', 'penalty', 'section', 'of', 'the', 'rulebook']
+","['F', 'F', 'F', 'F', 'F', 'F', 'F', ',', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+"Interaction among players can take various forms, including negotiation, trading, or other mechanisms specified in the game rules",Fact,"['Interaction', 'among', 'players', 'can', 'take', 'various', 'forms', ',', 'including', 'negotiation', ',', 'trading', ',', 'or', 'other', 'mechanisms', 'specified', 'in', 'the', 'game', 'rules']","['F', 'F', 'F', 'F', 'F', 'F', 'F', ',', 'F', 'F', ',', 'F', ',', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+The primary objective is to achieve dominance by completing key objectives and earning victory points,Fact,"['The', 'primary', 'objective', 'is', 'to', 'achieve', 'dominance', 'by', 'completing', 'key', 'objectives', 'and', 'earning', 'victory', 'points']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+"Players earn points by completing quests, with each quest card specifying the number of victory points awarded upon successful completion",Fact,"['Players', 'earn', 'points', 'by', 'completing', 'quests', ',', 'with', 'each', 'quest', 'card', 'specifying', 'the', 'number', 'of', 'victory', 'points', 'awarded', 'upon', 'successful', 'completion']","['F', 'F', 'F', 'F', 'F', 'F', ',', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F']
+"
+The player draws a card from the deck and adds it to their hand.,Act,"['The', 'player', 'draws', 'a', 'card', 'from', 'the', 'deck', 'and', 'adds', 'it', 'to', 'their', 'hand', '.']","['Actor', 'Actor', 'Action', 'Object', 'Object', 'Object', 'Object', 'Object', 'O', 'Action', 'Object', 'Object', 'Object', 'Object', '.']"
+"If the property is owned, the player has to pay the owner the specified rent.",Duty,"['If', 'the', 'property', 'is', 'owned', ',', 'the', 'player', 'has', 'to', 'pay', 'the', 'owner', 'the', 'specified', 'rent', '.']","['PR', 'PR', 'PR', 'PR', 'PR', ',', 'Duty Holder', 'Duty Holder', 'Action', 'Action', 'Action', 'Claimant', 'Claimant', 'Object', 'Object', 'Object', '.']"
+"Go Fish, or Authors, is a card game that requires 2-5 players and a standard 52 playing card deck.",Fact,"['Go', 'Fish', ',', 'or', 'Authors', ',', 'is', 'a', 'card', 'game', 'that', 'requires', '2-5', 'players', 'and', 'a', 'standard', '52', 'playing', 'card', 'deck', '.']
+","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"The objective of Go Fish is to have the most “books”, or 4 of a kind, by the end of the game.",Fact,"['The', 'objective', 'of', 'Go', 'Fish', 'is', 'to', 'have', 'the', 'most', '“books”,', 'or', '4', 'of', 'a', 'kind,', 'by', 'the', 'end', 'of', 'the', 'game', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"To decide who is dealer, every player receives 1 card from a shuffled deck of cards. With Aces being high and 2’s being low, the player with the lowest card is the dealer.",Fact,"['To', 'decide', 'who', 'is', 'dealer,', 'every', 'player', 'receives', '1', 'card', 'from', 'a', 'shuffled', 'deck', 'of', 'cards.', 'With', 'Aces', 'being', 'high', 'and', '2’s', 'being', 'low,', 'the', 'player', 'with', 'the', 'lowest', 'card', 'is', 'the', 'dealer', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+The players assemble in a circle and the dealer shuffles the cards.,Act,"['The', 'players', 'assemble', 'in', 'a', 'circle', 'and', 'the', 'dealer', 'shuffles', 'the', 'cards', '.']","[""Actor"", ""Actor"", ""Action"", ""O"", ""Object"", ""Object"", ""O"", ""Actor"", ""Actor"", ""Action"", ""Object"", ""Object"", '.']"
+"The player to the dealer’s immediate right cuts the shuffled deck and the dealer then passes the cards out face down, clockwise, and one at a time.",Act,"['The', 'player', 'to', 'the', 'dealer’s', 'immediate', 'right', 'cuts', 'the', 'shuffled', 'deck', 'and', 'the', 'dealer', 'then', 'passes', 'the', 'cards', 'out', 'face', 'down,', 'clockwise,', 'and', 'one', 'at', 'a', 'time', '.']","[""Actor"", ""Actor"", ""Actor"", ""Actor"", ""Actor"", ""Actor"", ""Actor"", ""Action"", ""Object"", ""Object"", ""Object"", ""O"", ""Actor"", ""Actor"", ""O"", ""Action"", ""Object"", ""Object"", ""Action"", ""O"", ""O"", ""O"", ""O"", ""O"", ""O"", ""O"", ""O"", '.']"
+"If less than 4 people are playing, each player receives 7 cards",Fact,"['If', 'less', 'than', '4', 'people', 'are', 'playing,', 'each', 'player', 'receives', '7', 'cards', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"If more that 4 people are playing, each player receives 5 cards.",Fact,"['If', 'more', 'that', '4', 'people', 'are', 'playing,', 'each', 'player', 'receives', '5', 'cards', '.']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+The remaining deck is placed face down in the middle of the circle to form the “ocean”.,Fact,"['The', 'remaining', 'deck', 'is', 'placed', 'face', 'down', 'in', 'the', 'middle', 'of', 'the', 'circle', 'to', 'form', 'the', '“ocean”', '. ']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"If a player does not have the typed asked for, they say “go fish” and the asker picks up the top card from the ocean",Act,"['If', 'a', 'player', 'does', 'not', 'have', 'the', 'typed', 'asked', 'for,', 'they', 'say', '“go', 'fish”', 'and', 'the', 'asker', 'picks', 'up', 'the', 'top', 'card', 'from', 'the', 'ocean', '. ']","[""PR"", ""Recipient"", ""Recipient"", ""PR"", ""PR"", ""PR"", ""PR"", ""PR"", ""PR"", ""PR"", 
+ ""Actor"", ""Action"", ""O"", ""O"", ""O"", ""Actor"", ""Actor"", ""Action"", ""Action"", ""Object"", ""Object"", ""Object"", ""Object"", ""Object"", ""Object"", '.']"
+The gameplay then moves to the left and the next person fishes for cards.  ,Fact,"['The', 'gameplay', 'then', 'moves', 'to', 'the', 'left', 'and', 'the', 'next', 'person', 'fishes', 'for', 'cards', '. ']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+A player makes a book when they have 4 of a kind.,Act,"['A', 'player', 'makes', 'a', 'book', 'when', 'they', 'have', '4', 'of', 'a', 'kind', '. ']","['Actor', 'Actor', 'Action', 'Object', 'Object', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', '.']
+"
+"When a book is made, the player places the 4 cards face up in a pile in front of them to verify to the other players that they made a book.",Act,"['When', 'a', 'book', 'is', 'made,', 'the', 'player', 'places', 'the', '4', 'cards', 'face', 'up', 'in', 'a', 'pile', 'in', 'front', 'of', 'them', 'to', 'verify', 'to', 'the', 'other', 'players', 'that', 'they', 'made', 'a', 'book', '. ']","['PR', 'PR', 'PR', 'PR', 'PR', 'Actor', 'Actor', 'Action', 'Object', 'Object', 'Object', 'O','O', 'O', 'O', 'O', 'O', 'O', 'O', 'Actor', 'O', 'Action', 'O', 'Recipient', 'Recipient', 'Recipient', 'O', 'Actor', 'Action', 'Object', 'Object', '.']
+
+"
+The game ends when all 13 books are made,Fact,"['The', 'game', 'ends', 'when', 'all', '13', 'books', 'are', 'made', '. ']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+The player with the most books wins.,Fact,"['The', 'player', 'with', 'the', 'most', 'books', 'wins', '. ']","['F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"
+"If a player runs out of cards during the game, they may select one from the ocean when it is their turn.",Act,"['If', 'a', 'player', 'runs', 'out', 'of', 'cards', 'during', 'the', 'game,', 'they', 'may', 'select', 'one', 'from', 'the', 'ocean', 'when', 'it', 'is', 'their', 'turn', '. ']","['PR', 'Actor', 'Actor', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'PR', 'Actor', 'O', 'Action', 'Object', 'O', 'O', 'O', 'O', 'PR', 'PR', 'PR', 'Actor', 'PR', '.']
+"
+"If there are no more cards in the ocean, they are out of the game and the number of books they have is final. ",Fact,"['If', 'there', 'are', 'no', 'more', 'cards', 'in', 'the', 'ocean,', 'they', 'are', 'out', 'of', 'the', 'game', 'and', 'the', 'number', 'of', 'books', 'they', 'have', 'is', 'final', '. ']","['F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', 'F', '.']"

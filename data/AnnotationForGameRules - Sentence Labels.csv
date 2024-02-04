@@ -1,0 +1,204 @@
+Game,Sentence ,Label,Tokens 
+Bingo,Bingo is a classic card game for four of more players.,Fact,"['Bingo', 'is', 'a', 'classic', 'card', 'game', 'for', 'four', 'or', 'more', 'players', '.']
+"
+Bingo,Bingo uses two standard 52 playing card decks.,Fact,"['Bingo', 'uses', 'two', 'standard', '52', 'playing', 'card', 'decks', '.']
+"
+Bingo,More decks can be used depending on the number of players and the number of playable spaces.,Fact,"['More', 'decks', 'can', 'be', 'used', 'depending', 'on', 'the', 'number', 'of', 'players', 'and', 'the', 'number', 'of', 'playable', 'spaces', '.']
+"
+Bingo,"Before gameplay can begin, a caller must be selected.",Act,"['Before', 'gameplay', 'can', 'begin', ',', 'a', 'caller', 'must', 'be', 'selected', '.']
+"
+Bingo,"To do so, players must choose a random card from a shuffled deck.",Duty,"['To', 'do', 'so', ',', 'players', 'must', 'choose', 'a', 'random', 'card', 'from', 'a', 'shuffled', 'deck', '.']
+"
+Bingo,The player with the lowest card becomes the caller.,Fact,"['The', 'player', 'with', 'the', 'lowest', 'card', 'becomes', 'the', 'caller', '.']
+"
+Bingo,Ties are broken with repeated drawings.,Fact,"['Ties', 'are', 'broken', 'with', 'repeated', 'drawings', '.']
+"
+Bingo,"The caller shuffles both decks and then passes out five cards, faced up, to each player.",Act,"['The', 'caller', 'shuffles', 'both', 'decks', 'and', 'then', 'passes', 'out', 'five', 'cards', ',', 'faced', 'up', ',', 'to', 'each', 'player', '.']
+"
+Bingo,The other deck is just for the caller.,Fact,"['The', 'other', 'deck', 'is', 'just', 'for', 'the', 'caller', '.']"
+Bingo,The caller then draws cards from the shuffled deck and announces the rank and suit.,Act,"['The', 'caller', 'then', 'draws', 'cards', 'from', 'the', 'shuffled', 'deck', 'and', 'announces', 'the', 'rank', 'and', 'suit', '.']"
+Bingo,"If a player has that card in their hand, they place it faced down on the table.",Duty,"['If', 'a', 'player', 'has', 'that', 'card', 'in', 'their', 'hand', ',', 'they', 'place', 'it', 'faced', 'down', 'on', 'the', 'table', '.']
+"
+Bingo,"When a player has all of their cards faced down, they shout “Bingo!” and win the round.",Act,"['When', 'a', 'player', 'has', 'all', 'of', 'their', 'cards', 'faced', 'down', ',', 'they', 'shout', '“Bingo!”', 'and', 'win', 'the', 'round', '.']
+"
+Casino,Casino is a classic card game for 2 to 4 people and is played with a standard 52 card deck. ,Fact,"['Casino', 'is', 'a', 'classic', 'card', 'game', 'for', '2', 'to', '4', 'people', 'and', 'is', 'played', 'with', 'a', 'standard', '52', 'card', 'deck', '.']"
+Casino,The objective of Casino is to be the first player to win 21 points.,Fact,"['The', 'objective', 'of', 'Casino', 'is', 'to', 'be', 'the', 'first', 'player', 'to', 'win', '21', 'points', '.']"
+Casino,"Before gameplay can begin, a dealer must be selected.",Act,"['Before', 'gameplay', 'can', 'begin', ',', 'a', 'dealer', 'must', 'be', 'selected', '.']"
+Casino,"To do so, players must choose a random card from a shuffled deck.",Duty,"['To', 'do', 'so', ',', 'players', 'must', 'choose', 'a', 'random', 'card', 'from', 'a', 'shuffled', 'deck', '.']
+"
+Casino,The player with the lowest card becomes the dealer.,Fact ,"['The', 'player', 'with', 'the', 'lowest', 'card', 'becomes', 'the', 'dealer', '.']"
+Casino,Ties are broken with repeated drawings.,Fact ,"['Ties', 'are', 'broken', 'with', 'repeated', 'drawings', '.']
+"
+Casino,"The dealer then deals two cards to their opponents, two cards to the middle, and two cards to themselves.",Act,"['The', 'dealer', 'then', 'deals', 'two', 'cards', 'to', 'their', 'opponents', ',', 'two', 'cards', 'to', 'the', 'middle', ',', 'and', 'two', 'cards', 'to', 'themselves', '.']
+"
+Casino,They do this twice so that everybody has four cards.,Act,"['They', 'do', 'this', 'twice', 'so', 'that', 'everybody', 'has', 'four', 'cards', '.']"
+Casino,The four middle cards are faced up.,Fact ,"['The', 'four', 'middle', 'cards', 'are', 'faced', 'up', '.']"
+Casino,The remaining deck forms the stock.,Fact ,"['The', 'remaining', 'deck', 'forms', 'the', 'stock', '.']"
+Casino,Players win cards by matching cards in the middle with cards from their hands.,Act,"['Players', 'win', 'cards', 'by', 'matching', 'cards', 'in', 'the', 'middle', 'with', 'cards', 'from', 'their', 'hands', '.']"
+Casino,The simplest way to match cards is to pair up a card in the middle with a card in your hand.,Act,"['The', 'simplest', 'way', 'to', 'match', 'cards', 'is', 'to', 'pair', 'up', 'a', 'card', 'in', 'the', 'middle', 'with', 'a', 'card', 'in', 'your', 'hand', '.']
+"
+Casino,Players can also match cards by building them.,Act,"['Players', 'can', 'also', 'match', 'cards', 'by', 'building', 'them', '.']"
+Casino,"To build a card, a player can combine a card from their hand with a card in the middle only if the resulting combination matches another card in their hand.",Act,"['To', 'build', 'a', 'card', ',', 'a', 'player', 'can', 'combine', 'a', 'card', 'from', 'their', 'hand', 'with', 'a', 'card', 'in', 'the', 'middle', 'only', 'if', 'the', 'resulting', 'combination', 'matches', 'another', 'card', 'in', 'their', 'hand', '.']
+"
+Casino,"For example, if a player has a 5 and a 2 in their hand and there is a 3 in the middle, a player can play their 2 on the 3 and say that they are building 5.",Act,"['For', 'example', ',', 'if', 'a', 'player', 'has', 'a', '5', 'and', 'a', '2', 'in', 'their', 'hand', 'and', 'there', 'is', 'a', '3', 'in', 'the', 'middle', ',', 'a', 'player', 'can', 'play', 'their', '2', 'on', 'the', '3', 'and', 'say', 'that', 'they', 'are', 'building', '5', '.']"
+Casino,The other players then have an opportunity to either take the built 5 or to continue adding cards to the middle.,Act,"['The', 'other', 'players', 'then', 'have', 'an', 'opportunity', 'to', 'either', 'take', 'the', 'built', '5', 'or', 'to', 'continue', 'adding', 'cards', 'to', 'the', 'middle', '.']"
+Casino,"If the other players can't do so, then on the original player's next turn, they may pair up their 5 with the 2 and the 3.",Act,"['If', 'the', 'other', 'players', ""can't"", 'do', 'so', ',', 'then', 'on', 'the', 'original', ""player's"", 'next', 'turn', ',', 'they', 'may', 'pair', 'up', 'their', '5', 'with', 'the', '2', 'and', 'the', '3', '.']"
+Casino,Players can also match cards by calling them.,Act,"['Players', 'can', 'also', 'match', 'cards', 'by', 'calling', 'them', '.']"
+Casino,"To call a card, a player can leave a pair in the middle, if they have another card of the same kind in their hand.",Act,"['To', 'call', 'a', 'card', ',', 'a', 'player', 'can', 'leave', 'a', 'pair', 'in', 'the', 'middle', ',', 'if', 'they', 'have', 'another', 'card', 'of', 'the', 'same', 'kind', 'in', 'their', 'hand', '.']"
+Casino,"For example, if a player has two 5s in their hand and there is a 5 in the middle, a player can place one of their 5s onto the middle 5 and say they are calling 5.",Act,"['For', 'example', ',', 'if', 'a', 'player', 'has', 'two', '5s', 'in', 'their', 'hand', 'and', 'there', 'is', 'a', '5', 'in', 'the', 'middle', ',', 'a', 'player', 'can', 'place', 'one', 'of', 'their', '5s', 'onto', 'the', 'middle', '5', 'and', 'say', 'they', 'are', 'calling', '5', '.']"
+Casino,The other players then have an opportunity to take the called 5 if they have a 5 in their hand.,Act,"['The', 'other', 'players', 'then', 'have', 'an', 'opportunity', 'to', 'to', 'take', 'the', 'called', '5', 'if', 'they', 'have', 'a', '5', 'in', 'their', 'hand', '.']"
+Casino,"If they don't, then on the original player's next turn, they may use their other 5 to take the two middle 5s.",Act,"['If', 'they', ""don't"", ',', 'then', 'on', 'the', 'original', 'player's', 'next', 'turn', ',', 'they', 'may', 'use', 'their', 'other', '5', 'to', 'take', 'the', 'two', 'middle', '5s', '.']
+"
+Casino,"In Casino, Aces are worth 1.",Fact,"['In', 'Casino', ',', 'Aces', 'are', 'worth', '1', '.']
+"
+Casino,Faces cards are not worth anything and must be matched by simple pairing.,Fact,"['Faces', 'cards', 'are', 'not', 'worth', 'anything', 'and', 'must', 'be', 'matched', 'by', 'simple', 'pairing', '.']"
+Casino,"If a player can not match any cards, they must place one of their cards in the middle.",Duty,"['If', 'a', 'player', 'can', 'not', 'match', 'any', 'cards', ',', 'they', 'must', 'place', 'one', 'of', 'their', 'cards', 'in', 'the', 'middle', '.']"
+Casino,"If a player runs out of cards in their hand, they must wait until all players have run out of cards in their hands before the dealer can deal out four more cards to everyone.",Duty,"['If', 'a', 'player', 'runs', 'out', 'of', 'cards', 'in', 'their', 'hand', ',', 'they', 'must', 'wait', 'until', 'all', 'players', 'have', 'run', 'out', 'of', 'cards', 'in', 'their', 'hands', 'before', 'the', 'dealer', 'can', 'deal', 'out', 'four', 'more', 'cards', 'to', 'everyone', '.']"
+Concentration,"Concentration, or Memory, is a classic card game for 2 or more players.",Fact,"['Concentration,', 'or', 'Memory,', 'is', 'a', 'classic', 'card', 'game', 'for', '2', 'or', 'more', 'players.', '.']"
+Concentration,It is played with either a standard 52 playing card deck or a specialty deck.,Fact,"['It', 'is', 'played', 'with', 'either', 'a', 'standard', '52', 'playing', 'card', 'deck', 'or', 'a', 'specialty', 'deck.', '.']"
+Concentration,The objective is to be the player with the most matched pairs.,Fact,"['The', 'objective', 'is', 'to', 'be', 'the', 'player', 'with', 'the', 'most', 'matched', 'pairs.', '.']"
+Concentration,"Before gameplay can begin, the order of play must first be established.",Act,"['Before', 'gameplay', 'can', 'begin,', 'the', 'order', 'of', 'play', 'must', 'first', 'be', 'established.', '.']"
+Concentration,Every player draws from a shuffled deck of cards.,Duty,"['Every', 'player', 'draws', 'from', 'a', 'shuffled', 'deck', 'of', 'cards.', '.']"
+Concentration,"With 2s low and Aces high, players arrange themselves in a circle with highest to lowest going clockwise.",Duty,"['With', '2s', 'low', 'and', 'Aces', 'high,', 'players', 'arrange', 'themselves', 'in', 'a', 'circle', 'with', 'highest', 'to', 'lowest', 'going', 'clockwise.', '.']"
+Concentration,Ties are broken by a redraw of the two players.,Fact,"['Ties', 'are', 'broken', 'by', 'a', 'redraw', 'of', 'the', 'two', 'players.', '.']"
+Concentration,"After shuffling the deck again, any player can arrange the cards on a flat surface in a faced down grid pattern.",Act,"['After', 'shuffling', 'the', 'deck', 'again,', 'any', 'player', 'can', 'arrange', 'the', 'cards', 'on', 'a', 'flat', 'surface', 'in', 'a', 'faced', 'down', 'grid', 'pattern.', '.']"
+Concentration,"Beginning with the player who drew the highest card and going clockwise, players take turns flipping over two cards.",Duty,"['Beginning', 'with', 'the', 'player', 'who', 'drew', 'the', 'highest', 'card', 'and', 'going', 'clockwise,', 'players', 'take', 'turns', 'flipping', 'over', 'two', 'cards.', '.']"
+Concentration,"If the cards form a pair, then the player takes them from the grid for themselves.",Act,"['If', 'the', 'cards', 'form', 'a', 'pair,', 'then', 'the', 'player', 'takes', 'them', 'from', 'the', 'grid', 'for', 'themselves.', '.']"
+Concentration,"If the cards do not form a pair, then the player flips them back over on the same spot as before.",Fact,"['If', 'the', 'cards', 'do', 'not', 'form', 'a', 'pair,', 'then', 'the', 'player', 'flips', 'them', 'back', 'over', 'on', 'the', 'same', 'spot', 'as', 'before.', '.']"
+Concentration,Both cards should only remain flipped up for 5 seconds before being flipped back down again.,Fact,"['Both', 'cards', 'should', 'only', 'remain', 'flipped', 'up', 'for', '5', 'seconds', 'before', 'being', 'flipped', 'back', 'down', 'again.', '.']"
+Concentration,Every player should be able to see the cards' position. ,Fact,"['Every', 'player', 'should', 'be', 'able', 'to', 'see', 'the', ""cards'"", 'position.', '.']"
+Concentration,"After all of the cards have been paired up, the player with the most pairs wins. ",Fact,"['After', 'all', 'of', 'the', 'cards', 'have', 'been', 'paired', 'up,', 'the', 'player', 'with', 'the', 'most', 'pairs', 'wins.', '.']"
+Go Fish,"Go Fish, or Authors, is a card game that requires 2-5 players and a standard 52 playing card deck.",Fact,"['Go', 'Fish', ',', 'or', 'Authors', ',', 'is', 'a', 'card', 'game', 'that', 'requires', '2-5', 'players', 'and', 'a', 'standard', '52', 'playing', 'card', 'deck', '.']
+"
+Go Fish,"The objective of Go Fish is to have the most “books”, or 4 of a kind, by the end of the game.",Fact,"['The', 'objective', 'of', 'Go', 'Fish', 'is', 'to', 'have', 'the', 'most', '“books”,', 'or', '4', 'of', 'a', 'kind,', 'by', 'the', 'end', 'of', 'the', 'game', '.']"
+Go Fish,"Before the game officially begins, the job of dealer must be assigned to one of the players.",Duty,"['Before', 'the', 'game', 'officially', 'begins', ',', 'the', 'job', 'of', 'dealer', 'must', 'be', 'assigned', 'to', 'one', 'of', 'the', 'players', '.']
+"
+Go Fish,"To decide who is dealer, every player receives 1 card from a shuffled deck of cards. With Aces being high and 2’s being low, the player with the lowest card is the dealer.",Fact,"['To', 'decide', 'who', 'is', 'dealer,', 'every', 'player', 'receives', '1', 'card', 'from', 'a', 'shuffled', 'deck', 'of', 'cards.', 'With', 'Aces', 'being', 'high', 'and', '2’s', 'being', 'low,', 'the', 'player', 'with', 'the', 'lowest', 'card', 'is', 'the', 'dealer', '.']"
+Go Fish,The players assemble in a circle and the dealer shuffles the cards.,Act,"['The', 'players', 'assemble', 'in', 'a', 'circle', 'and', 'the', 'dealer', 'shuffles', 'the', 'cards', '.']"
+Go Fish,"The player to the dealer’s immediate right cuts the shuffled deck and the dealer then passes the cards out face down, clockwise, and one at a time.",Act,"['The', 'player', 'to', 'the', 'dealer’s', 'immediate', 'right', 'cuts', 'the', 'shuffled', 'deck', 'and', 'the', 'dealer', 'then', 'passes', 'the', 'cards', 'out', 'face', 'down,', 'clockwise,', 'and', 'one', 'at', 'a', 'time', '.']"
+Go Fish,"If less than 4 people are playing, each player receives 7 cards",Fact,"['If', 'less', 'than', '4', 'people', 'are', 'playing,', 'each', 'player', 'receives', '7', 'cards', '.']"
+Go Fish,"If more that 4 people are playing, each player receives 5 cards.",Fact,"['If', 'more', 'that', '4', 'people', 'are', 'playing,', 'each', 'player', 'receives', '5', 'cards', '.']"
+Go Fish,The remaining deck is placed face down in the middle of the circle to form the “ocean”.,Fact,"['The', 'remaining', 'deck', 'is', 'placed', 'face', 'down', 'in', 'the', 'middle', 'of', 'the', 'circle', 'to', 'form', 'the', '“ocean”', '. ']"
+Go Fish,The game begins when the player to the left of the dealer “fishes” by asking another player if they have a certain card in their hand (e.g. “Do you have any Queens?”).,Act,"['The', 'game', 'begins', 'when', 'the', 'player', 'to', 'the', 'left', 'of', 'the', 'dealer', '“fishes”', 'by', 'asking', 'another', 'player', 'if', 'they', 'have', 'a', 'certain', 'card', 'in', 'their', 'hand', '(e.g.', '“Do', 'you', 'have', 'any', 'Queens?”)', '. ']"
+Go Fish,"If the player does have the type of card asked for, they must give the asker all of that type they possess.",Duty,"['If', 'the', 'player', 'does', 'have', 'the', 'type', 'of', 'card', 'asked', 'for,', 'they', 'must', 'give', 'the', 'asker', 'all', 'of', 'that', 'type', 'they', 'possess', '. ']"
+Go Fish,"If a player does not have the typed asked for, they say “go fish” and the asker picks up the top card from the ocean",Act,"['If', 'a', 'player', 'does', 'not', 'have', 'the', 'typed', 'asked', 'for,', 'they', 'say', '“go', 'fish”', 'and', 'the', 'asker', 'picks', 'up', 'the', 'top', 'card', 'from', 'the', 'ocean', '. ']"
+Go Fish,The gameplay then moves to the left and the next person fishes for cards.  ,Fact,"['The', 'gameplay', 'then', 'moves', 'to', 'the', 'left', 'and', 'the', 'next', 'person', 'fishes', 'for', 'cards', '. ']"
+Go Fish,A player makes a book when they have 4 of a kind.,Act,"['A', 'player', 'makes', 'a', 'book', 'when', 'they', 'have', '4', 'of', 'a', 'kind', '. ']"
+Go Fish,"When a book is made, the player places the 4 cards face up in a pile in front of them to verify to the other players that they made a book.",Act,"['When', 'a', 'book', 'is', 'made,', 'the', 'player', 'places', 'the', '4', 'cards', 'face', 'up', 'in', 'a', 'pile', 'in', 'front', 'of', 'them', 'to', 'verify', 'to', 'the', 'other', 'players', 'that', 'they', 'made', 'a', 'book', '. ']"
+Go Fish,The game ends when all 13 books are made,Fact,"['The', 'game', 'ends', 'when', 'all', '13', 'books', 'are', 'made', '. ']"
+Go Fish,The player with the most books wins.,Fact,"['The', 'player', 'with', 'the', 'most', 'books', 'wins', '. ']"
+Go Fish,"If a player runs out of cards during the game, they may select one from the ocean when it is their turn.",Act,"['If', 'a', 'player', 'runs', 'out', 'of', 'cards', 'during', 'the', 'game,', 'they', 'may', 'select', 'one', 'from', 'the', 'ocean', 'when', 'it', 'is', 'their', 'turn', '. ']"
+Go Fish,"If there are no more cards in the ocean, they are out of the game and the number of books they have is final. ",Fact,"['If', 'there', 'are', 'no', 'more', 'cards', 'in', 'the', 'ocean,', 'they', 'are', 'out', 'of', 'the', 'game', 'and', 'the', 'number', 'of', 'books', 'they', 'have', 'is', 'final', '. ']"
+Conquian ,Conquian is a two-player rummy type game and is played with standard playing cards.,Fact ,"['Conquian', 'is', 'a', 'two-player', 'rummy', 'type', 'game', 'and', 'is', 'played', 'with', 'standard', 'playing', 'cards', '.']"
+Conquian ,"In Conquian, the 10s, 9s, and 8s are removed form a 40-card deck.",Act,"['In', 'Conquian', ',', 'the', '10s', ',', '9s', ',', 'and', '8s', 'are', 'removed', 'form', 'a', '40-card', 'deck', '.']
+"
+Conquian ,"Before the game can begin, an initial dealer must be selected.",Act,"['Before', 'the', 'game', 'can', 'begin', ',', 'an', 'initial', 'dealer', 'must', 'be', 'selected', '.']"
+Conquian ,"To do so, players will pick a random card from a shuffled deck.",Act,"['To', 'do', 'so', ',', 'players', 'will', 'pick', 'a', 'random', 'card', 'from', 'a', 'shuffled', 'deck', '.']"
+Conquian ,The player with the lowest card is the dealer.,Fact ,"['The', 'player', 'with', 'the', 'lowest', 'card', 'is', 'the', 'dealer', '.']"
+Conquian ,The dealer then shuffles the deck and passes out 10 card one by one to each player.,Act,"['The', 'dealer', 'then', 'shuffles', 'the', 'deck', 'and', 'passes', 'out', '10', 'card', 'one', 'by', 'one', 'to', 'each', 'player', '.']"
+Conquian ,The remaining cards form the stock  are placed face down in the middle of the gameplay area.,Act,"['The', 'remaining', 'cards', 'form', 'the', 'stock', 'are', 'placed', 'face', 'down', 'in', 'the', 'middle', 'of', 'the', 'gameplay', 'area', '.']
+"
+Conquian ,Players are able to lose their cards by melding.,Fact ,"['Players', 'are', 'able', 'to', 'lose', 'their', 'cards', 'by', 'melding', '.']"
+Conquian ,A meld is either 3 or 4 cards of the same rank or 3 or more cards of the same suit in sequence.,Fact ,"['A', 'meld', 'is', 'either', '3', 'or', '4', 'cards', 'of', 'the', 'same', 'rank', 'or', '3', 'or', 'more', 'cards', 'of', 'the', 'same', 'suit', 'in', 'sequence', '.']"
+Conquian ,Gameplay begins with the player opposite of the dealer.,Fact,"['Gameplay', 'begins', 'with', 'the', 'player', 'opposite', 'of', 'the', 'dealer', '.']
+"
+Conquian ,"At the start of their turn, players will select a card either from the stock pile or the discard pile.",Act,"['At', 'the', 'start', 'of', 'their', 'turn', ',', 'players', 'will', 'select', 'a', 'card', 'either', 'from', 'the', 'stock', 'pile', 'or', 'the', 'discard', 'pile', '.']
+"
+Conquian ,The card can only be kept if it can be used in a meld.,Fact,"['The', 'card', 'can', 'only', 'be', 'kept', 'if', 'it', 'can', 'be', 'used', 'in', 'a', 'meld', '.']"
+Conquian ," If it can’t, it is placed face up in the discard pile next to the stock pile.",Duty,"['If', 'it', ""can’t"", ',', 'it', 'is', 'placed', 'face', 'up', 'in', 'the', 'discard', 'pile', 'next', 'to', 'the', 'stock', 'pile', '.']"
+Conquian ,"If a player can use the card selected, they may also play any other melds in their hand.",Act,"['If', 'a', 'player', 'can', 'use', 'the', 'card', 'selected', ',', 'they', 'may', 'also', 'play', 'any', 'other', 'melds', 'in', 'their', 'hand', '.']"
+Conquian ,A player’s turn ends with them discarding a card.,Fact ,"['A', 'player’s', 'turn', 'ends', 'with', 'them', 'discarding', 'a', 'card', '.']"
+Conquian ,The first player to meld eleven cards wins the game.,Fact ,"['The', 'first', 'player', 'to', 'meld', 'eleven', 'cards', 'wins', 'the', 'game', '.']"
+Conquian ,"If the stock pile runs out, the game ends in a tie",Act,"['If', 'the', 'stock', 'pile', 'runs', 'out', ',', 'the', 'game', 'ends', 'in', 'a', 'tie', '.']"
+California Jack,California Jack is a trick-taking game played with four people.,Fact ,"['California', 'Jack', 'is', 'a', 'trick-taking', 'game', 'played', 'with', 'four', 'people', '.']"
+California Jack,It uses a standard 52 playing card deck with Aces high and 2s low.,Fact ,"['It', 'uses', 'a', 'standard', '52', 'playing', 'card', 'deck', 'with', 'Aces', 'high', 'and', '2s', 'low', '.']"
+California Jack,The objective of California Jack is to get the most tricks.,Fact ,"['The', 'objective', 'of', 'California', 'Jack', 'is', 'to', 'get', 'the', 'most', 'tricks', '.']"
+California Jack,"Before gameplay can begin, a dealer must be selected.",Act,"['Before', 'gameplay', 'can', 'begin', ',', 'a', 'dealer', 'must', 'be', 'selected', '.']"
+California Jack,"To do so, players must choose a random card from a shuffled deck.",Duty,"['To', 'do', 'so', ',', 'players', 'must', 'choose', 'a', 'random', 'card', 'from', 'a', 'shuffled', 'deck', '.']"
+California Jack,The player with the lowest card becomes the dealer. ,Fact,"['The', 'player', 'with', 'the', 'lowest', 'card', 'becomes', 'the', 'dealer', '.']"
+California Jack,Ties are broken with repeated drawings.,Fact,"['Ties', 'are', 'broken', 'with', 'repeated', 'drawings', '.']"
+California Jack,The dealer shuffles the deck and then passes out six cards to each player.,Fact,"['The', 'dealer', 'shuffles', 'the', 'deck', 'and', 'then', 'passes', 'out', 'six', 'cards', 'to', 'each', 'player', '.']"
+California Jack,The remaining deck is placed face up to form the stock. ,Fact,"['The', 'remaining', 'deck', 'is', 'placed', 'face', 'up', 'to', 'form', 'the', 'stock', '.']"
+California Jack,The first card showing establishes trump for the round.,Fact ,"['The', 'first', 'card', 'showing', 'establishes', 'trump', 'for', 'the', 'round', '.']"
+California Jack,"The dealer leads the first card and, going clockwise, players try to follow suit or trump if they can.",Act,"['The', 'dealer', 'leads', 'the', 'first', 'card', 'and', ',', 'going', 'clockwise', ',', 'players', 'try', 'to', 'follow', 'suit', 'or', 'trump', 'if', 'they', 'can', '.']
+"
+California Jack,The highest card takes the trick.,Fact,"['The', 'highest', 'card', 'takes', 'the', 'trick', '.']"
+California Jack,"Starting with the winner of the trick and going clockwise, players take one card from the stock.",Act," ['Starting', 'with', 'the', 'winner', 'of', 'the', 'trick', 'and', 'going', 'clockwise', ',', 'players', 'take', 'one', 'card', 'from', 'the', 'stock', '.']"
+California Jack,The winner then leads the next trick.,Act,"['The', 'winner', 'then', 'leads', 'the', 'next', 'trick', '.']"
+California Jack,The round ends when all cards have been played.,Fact ,"['The', 'round', 'ends', 'when', 'all', 'cards', 'have', 'been', 'played', '.']"
+California Jack,"Players receive 1 point for each Ace of trump, 2 of trump and Jack of trump won in a trick.",Fact,"['Players', 'receive', '1', 'point', 'for', 'each', 'Ace', 'of', 'trump', ',', '2', 'of', 'trump', 'and', 'Jack', 'of', 'trump', 'won', 'in', 'a', 'trick', '.']"
+California Jack,1 point is also awarded to the player who has the highest total number of points in cards,Fact,"['1', 'point', 'is', 'also', 'awarded', 'to', 'the', 'player', 'who', 'has', 'the', 'highest', 'total', 'number', 'of', 'points', 'in', 'cards', '.']"
+California Jack,"10 = 10 points, ace = 4, king = 3, queen = 2, jack = 1",Fact ,"['10', '=', '10', 'points', ',', 'ace', '=', '4', ',', 'king', '=', '3', ',', 'queen', '=', '2', ',', 'jack', '=', '1']
+
+"
+California Jack,The first player to reach 10 points wins the game.,Fact ,"['The', 'first', 'player', 'to', 'reach', '10', 'points', 'wins', 'the', 'game', '.']
+"
+,"If a player fails to draw a card after their turn, they must skip their next turn.",Duty,"['If', 'a', 'player', 'fails', 'to', 'draw', 'a', 'card', 'after', 'their', 'turn', ',', 'they', 'must', 'skip', 'their', 'next', 'turn', '.']"
+,Players are required to reshuffle the deck when the draw pile is empty.,Duty,"['Players', 'are', 'required', 'to', 'reshuffle', 'the', 'deck', 'when', 'the', 'draw', 'pile', 'is', 'empty', '.']"
+,"At the beginning of their turn, each player is instructed to draw a card from the deck.",Duty,"['At', 'the', 'beginning', 'of', 'their', 'turn', ',', 'each', 'player', 'is', 'instructed', 'to', 'draw', 'a', 'card', 'from', 'the', 'deck', '.']"
+,"In the case of owned property, the player has to pay the owner a specific amount.",Duty,"['In', 'the', 'case', 'of', 'owned', 'property', ',', 'the', 'player', 'has', 'to', 'pay', 'the', 'owner', 'a', 'specific', 'amount', '.']"
+,"If a player does not draw a card after their turn, they must skip their next turn.",Duty,"['If', 'a', 'player', 'does', 'not', 'draw', 'a', 'card', 'after', 'their', 'turn', ',', 'they', 'must', 'skip', 'their', 'next', 'turn', '.']"
+,Players need to form pairs by matching cards of the same rank.,Duty,"['Players', 'need', 'to', 'form', 'pairs', 'by', 'matching', 'cards', 'of', 'the', 'same', 'rank', '.']"
+,Participants need to decide who the first dealer will be to initiate a round.,Duty,"['Participants', 'need', 'to', 'decide', 'who', 'the', 'first', 'dealer', 'will', 'be', 'to', 'initiate', 'a', 'round', '.']"
+,"The player has to give money to the owner of the box, if the box is indeed owned by another player.",Duty,"['The', 'player', 'has', 'to', 'give', 'money', 'to', 'the', 'owner', 'of', 'the', 'box', ',', 'if', 'the', 'box', 'is', 'indeed', 'owned', 'by', 'another', 'player', '.']"
+,Players need to reshuffle the deck when the draw pile is empty.,Duty,"['Players', 'need', 'to', 'reshuffle', 'the', 'deck', 'when', 'the', 'draw', 'pile', 'is', 'empty', '.']"
+,"Before beginning their turn, each player are obligated to draw a card from the deck.",Duty,"['Before', 'beginning', 'their', 'turn', ',', 'each', 'player', 'are', 'obligated', 'to', 'draw', 'a', 'card', 'from', 'the', 'deck', '.']"
+,"If a player has not drawn a card after making their move, their next turn is foregone.",Duty,"['If', 'a', 'player', 'has', 'not', 'drawn', 'a', 'card', 'after', 'making', 'their', 'move', ',', 'their', 'next', 'turn', 'is', 'foregone', '.']"
+,"If a player forgets to say 'Uno' after their second-to-last card, they must draw two additional cards as a penalty.",Duty,"['If', 'a', 'player', 'forgets', 'to', 'say', ""'Uno'"", 'after', 'their', 'second-to-last', 'card', ',', 'they', 'must', 'draw', 'two', 'additional', 'cards', 'as', 'a', 'penalty', '.']"
+,Players are tasked with forming pairs by matching cards of the same rank.,Duty,"['Players', 'are', 'tasked', 'with', 'forming', 'pairs', 'by', 'matching', 'cards', 'of', 'the', 'same', 'rank', '.']"
+,"If a player fails to draw a card after their turn, they must skip their next turn.",Duty,"['If', 'a', 'player', 'fails', 'to', 'draw', 'a', 'card', 'after', 'their', 'turn', ',', 'they', 'must', 'skip', 'their', 'next', 'turn', '.']"
+,Players are required to reshuffle the deck when the draw pile is empty.,Duty,"['Players', 'are', 'required', 'to', 'reshuffle', 'the', 'deck', 'when', 'the', 'draw', 'pile', 'is', 'empty', '.']"
+,"At the beginning of their turn, each player is instructed to draw a card from the deck.",Duty,"['At', 'the', 'beginning', 'of', 'their', 'turn', ',', 'each', 'player', 'is', 'instructed', 'to', 'draw', 'a', 'card', 'from', 'the', 'deck', '.']"
+,"In the case of owned property, the player has to pay the owner a specific amount.",Duty,"['In', 'the', 'case', 'of', 'owned', 'property', ',', 'the', 'player', 'has', 'to', 'pay', 'the', 'owner', 'a', 'specific', 'amount', '.']"
+,"If a player does not draw a card after their turn, they must skip their next turn.",Duty,"['If', 'a', 'player', 'does', 'not', 'draw', 'a', 'card', 'after', 'their', 'turn', ',', 'they', 'must', 'skip', 'their', 'next', 'turn', '.']"
+,Players need to form pairs by matching cards of the same rank.,Duty,"['Players', 'need', 'to', 'form', 'pairs', 'by', 'matching', 'cards', 'of', 'the', 'same', 'rank', '.']"
+,Participants need to decide who the first dealer will be to initiate a round.,Duty,"['Participants', 'need', 'to', 'decide', 'who', 'the', 'first', 'dealer', 'will', 'be', 'to', 'initiate', 'a', 'round', '.']"
+,"The player has to give money to the owner of the box, if the box is indeed owned by another player.",Duty,"['The', 'player', 'has', 'to', 'give', 'money', 'to', 'the', 'owner', 'of', 'the', 'box', ',', 'if', 'the', 'box', 'is', 'indeed', 'owned', 'by', 'another', 'player', '.']"
+,Players need to reshuffle the deck when the draw pile is empty.,Duty,"['Players', 'need', 'to', 'reshuffle', 'the', 'deck', 'when', 'the', 'draw', 'pile', 'is', 'empty', '.']"
+,"Before beginning their turn, each player are obligated to draw a card from the deck.",Duty,"['Before', 'beginning', 'their', 'turn', ',', 'each', 'player', 'are', 'obligated', 'to', 'draw', 'a', 'card', 'from', 'the', 'deck', '.']"
+,"If a player has not drawn a card after making their move, their next turn is foregone.",Duty,"['If', 'a', 'player', 'has', 'not', 'drawn', 'a', 'card', 'after', 'making', 'their', 'move', ',', 'their', 'next', 'turn', 'is', 'foregone', '.']"
+,"If a player forgets to say 'Uno' after their second-to-last card, they must draw two additional cards as a penalty.",Duty,"['If', 'a', 'player', 'forgets', 'to', 'say', ""'Uno'"", 'after', 'their', 'second-to-last', 'card', ',', 'they', 'must', 'draw', 'two', 'additional', 'cards', 'as', 'a', 'penalty', '.']"
+,"The participants gather in a circular formation, and the dealer thoroughly mixes the card deck.",Act,"['The', 'participants', 'gather', 'in', 'a', 'circular', 'formation', ',', 'and', 'the', 'dealer', 'thoroughly', 'mixes', 'the', 'card', 'deck', '.']"
+,A player extracts a card from the deck and incorporates it into their set of cards.,Act,"['A', 'player', 'extracts', 'a', 'card', 'from', 'the', 'deck', 'and', 'incorporates', 'it', 'into', 'their', 'set', 'of', 'cards', '.']"
+,"Prior to the commencement of gameplay, a dealer needs to be chosen.",Act,"['Prior', 'to', 'the', 'commencement', 'of', 'gameplay', ',', 'a', 'dealer', 'needs', 'to', 'be', 'chosen', '.']"
+,"In order to accomplish this, participants will select a card at random from a shuffled deck.",Act,"['In', 'order', 'to', 'accomplish', 'this', ',', 'participants', 'will', 'select', 'a', 'card', 'at', 'random', 'from', 'a', 'shuffled', 'deck', '.']"
+,"To begin their turn, participants will choose a card either from the stockpile or the discard pile.",Act,"['To', 'begin', 'their', 'turn', ',', 'participants', 'will', 'choose', 'a', 'card', 'either', 'from', 'the', 'stockpile', 'or', 'the', 'discard', 'pile', '.']"
+,Bingo is a card game for four or more players.,Fact,
+,Players arrange themselves in a circle.,Act,
+,Each player draws 1 card from the top of the pile.,Act,
+,The dealer is the player with the lowest card.,Fact,
+,The dealer picks up the deck of 52 cards.,Act,
+,The dealer deals 7 cards to each player.,Act,
+,"Players should only place their cards face down of the table, as per the dealer's instructions.",Duty,
+,The dealer distributes a total of 7 cards to each player.,Act,
+,The dealer gathers the deck consisting of 52 cards.,Act,
+,The designated dealer is the player holding the lowest card.,Fact,
+,Every player picks a single card from the stack's top.,Act,
+,Players organize themselves in a circular formation.,Act,
+,Bingo is a card game designed for four or more players.,Fact,
+,Players win cards by matching cards in the middle with cards from their hands.,Act,
+,"Before gameplay can begin, the order of play must first be established.",Act,
+,The deck is shuffled by the dealer before distributing six cards to each player.,Duty,
+,Trump for the round is determined by the first card revealed.,Fact,
+,"Starting with the dealer leading the first card, players attempt to follow suit or play a trump, proceeding clockwise.",Act,
+,Securing the trick is achieved by playing the highest card. ,Fact,
+,The company policy states that employees are entitled to two weeks of paid vacation per year.,Fact,
+,"In the building code, it is specified that fire exits must be clearly marked and accessible.",Fact,
+,"According to the terms of the contract, the supplier is obligated to deliver the goods by the specified date.",Fact,
+,The academic calendar outlines the schedule for exams and holidays throughout the school year.,Fact,
+,The software license agreement stipulates that users cannot distribute the software without permission.,Fact,
+,The employee handbook instructs staff members to report any workplace accidents immediately.,Act,
+,The student code of conduct prohibits plagiarism and outlines consequences for violations.,Act,
+,Managers are required to conduct annual performance reviews as per company policy.,Act,
+,Residents must recycle according to the guidelines set forth by the waste management regulations.,Act,
+,The safety manual details the proper procedures for handling hazardous materials.,Act,
+,It is the duty of all employees to adhere to the company's code of ethics.,Duty,
+,Tenants have a responsibility to inform the landlord of any necessary repairs in a timely manner.,Duty,
+,"As outlined in the community guidelines, homeowners have a duty to maintain their property.",Duty,
+,Participants in the clinical trial have a duty to follow the prescribed medication schedule.,Duty,
+,"In the environmental policy, there is a duty for employees to minimize waste and conserve resources.",Duty,
+,The project manager has the duty to ensure that the team meets project deadlines.,Duty,
+,Students have a duty to respect the academic integrity policy and avoid cheating.,Duty,
+,All members of the organization have a duty to report any observed violations of the safety protocols.,Duty,
+,"As part of the customer service policy, staff members have a duty to address customer complaints promptly.",Duty,
+,The handbook outlines the duty of confidentiality that employees must maintain regarding sensitive information.,Duty,

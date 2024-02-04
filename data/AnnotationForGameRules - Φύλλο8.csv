@@ -1,0 +1,108 @@
+Sentence,Label
+Bingo is a classic card game for four of more players.,Fact
+Bingo uses two standard 52 playing card decks.,Fact
+More decks can be used depending on the number of players and the number of playable spaces.,Fact
+"Before gameplay can begin, a caller must be selected.",Act
+"To do so, players must choose a random card from a shuffled deck.",?????
+The player with the lowest card becomes the caller.,Fact
+Ties are broken with repeated drawings.,Fact
+"The caller shuffles both decks and then passes out five cards, faced up, to each player.",Act
+The other deck is just for the caller.,Fact
+The caller then draws cards from the shuffled deck and announces the rank and suit.,Act
+"If a player has that card in their hand, they place it faced down on the table.",Duty
+"When a player has all of their cards faced down, they shout “Bingo!” and win the round.",Act
+Casino is a classic card game for 2 to 4 people and is played with a standard 52 card deck. ,Fact
+The objective of Casino is to be the first player to win 21 points.,Fact
+"Before gameplay can begin, a dealer must be selected.",Act
+"To do so, players must choose a random card from a shuffled deck.",Duty
+The player with the lowest card becomes the dealer.,Fact
+Ties are broken with repeated drawings.,Fact
+"The dealer then deals two cards to their opponents, two cards to the middle, and two cards to themselves.",Act
+They do this twice so that everybody has four cards.,Act
+The four middle cards are faced up.,Fact
+The remaining deck forms the stock.,Fact
+Players win cards by matching cards in the middle with cards from their hands.,Act
+The simplest way to match cards is to pair up a card in the middle with a card in your hand.,?????
+Players can also match cards by building them.,Act
+"To build a card, a player can combine a card from their hand with a card in the middle only if the resulting combination matches another card in their hand.",Act
+"For example, if a player has a 5 and a 2 in their hand and there is a 3 in the middle, a player can play their 2 on the 3 and say that they are building 5.",Act???
+The other players then have an opportunity to either take the built 5 or to continue adding cards to the middle.,Act
+"If the other players can't do so, then on the original player's next turn, they may pair up their 5 with the 2 and the 3.",Duty/Act? (they may do x)
+Players can also match cards by calling them.,Act
+"To call a card, a player can leave a pair in the middle, if they have another card of the same kind in their hand.",Act
+"For example, if a player has two 5s in their hand and there is a 5 in the middle, a player can place one of their 5s onto the middle 5 and say they are calling 5.",Act
+The other players then have an opportunity to take the called 5 if they have a 5 in their hand.,Act
+"If they don't, then on the original player's next turn, they may use their other 5 to take the two middle 5s.",Act
+"In Casino, Aces are worth 1.",Fact
+Faces cards are not worth anything and must be matched by simple pairing.,Fact
+"If a player can not match any cards, they must place one of their cards in the middle.",Duty
+"If a player runs out of cards in their hand, they must wait until all players have run out of cards in their hands before the dealer can deal out four more cards to everyone.",Duty
+"Concentration, or Memory, is a classic card game for 2 or more players.",Fact
+It is played with either a standard 52 playing card deck or a specialty deck.,Fact
+The objective is to be the player with the most matched pairs.,Fact
+"Before gameplay can begin, the order of play must first be established.",Act
+Every player draws from a shuffled deck of cards.,Fact
+"With 2s low and Aces high, players arrange themselves in a circle with highest to lowest going clockwise.",?????
+Ties are broken by a redraw of the two players.,Fact
+"After shuffling the deck again, any player can arrange the cards on a flat surface in a faced down grid pattern.",Act
+"Beginning with the player who drew the highest card and going clockwise, players take turns flipping over two cards.",?????
+"If the cards form a pair, then the player takes them from the grid for themselves.",Act
+"If the cards do not form a pair, then the player flips them back over on the same spot as before.",Fact
+Both cards should only remain flipped up for 5 seconds before being flipped back down again.,Fact
+Every player should be able to see the cards' position. ,Fact
+"After all of the cards have been paired up, the player with the most pairs wins. ",Fact
+"Go Fish, or Authors, is a card game that requires 2-5 players and a standard 52 playing card deck.",Fact
+"The objective of Go Fish is to have the most “books”, or 4 of a kind, by the end of the game.",Fact
+"Before the game officially begins, the job of dealer must be assigned to one of the players.",Duty
+"To decide who is dealer, every player receives 1 card from a shuffled deck of cards. With Aces being high and 2’s being low, the player with the lowest card is the dealer.",Fact
+The players assemble in a circle and the dealer shuffles the cards.,Act
+"The player to the dealer’s immediate right cuts the shuffled deck and the dealer then passes the cards out face down, clockwise, and one at a time.",Act
+"If less than 4 people are playing, each player receives 7 cards",Fact
+"If more that 4 people are playing, each player receives 5 cards.",Fact
+The remaining deck is placed face down in the middle of the circle to form the “ocean”.,Fact
+The game begins when the player to the left of the dealer “fishes” by asking another player if they have a certain card in their hand (e.g. “Do you have any Queens?”).,Act
+"If the player does have the type of card asked for, they must give the asker all of that type they possess.",Duty
+"If a player does not have the typed asked for, they say “go fish” and the asker picks up the top card from the ocean",Act
+The gameplay then moves to the left and the next person fishes for cards.  ,Fact
+A player makes a book when they have 4 of a kind.,Act
+"When a book is made, the player places the 4 cards face up in a pile in front of them to verify to the other players that they made a book.",Act
+The game ends when all 13 books are made,Fact
+The player with the most books wins.,Fact
+"If a player runs out of cards during the game, they may select one from the ocean when it is their turn.",Act
+"If there are no more cards in the ocean, they are out of the game and the number of books they have is final. ",Fact
+Conquian is a two-player rummy type game and is played with standard playing cards.,Fact
+"In Conquian, the 10s, 9s, and 8s are removed form a 40-card deck.",Act
+"Before the game can begin, an initial dealer must be selected.",Act
+"To do so, players will pick a random card from a shuffled deck.",Act
+The player with the lowest card is the dealer.,Fact
+The dealer then shuffles the deck and passes out 10 card one by one to each player.,Act
+The remaining cards form the stock  are placed face down in the middle of the gameplay area.,Act
+Players are able to lose their cards by melding.,Fact
+A meld is either 3 or 4 cards of the same rank or 3 or more cards of the same suit in sequence.,Fact
+Gameplay begins with the player opposite of the dealer.,Fact
+"At the start of their turn, players will select a card either from the stock pile or the discard pile.",Act
+The card can only be kept if it can be used in a meld.,Fact
+" If it can’t, it is placed face up in the discard pile next to the stock pile.",Duty
+"If a player can use the card selected, they may also play any other melds in their hand.",Act
+A player’s turn ends with them discarding a card.,Fact
+The first player to meld eleven cards wins the game.,Fact
+"If the stock pile runs out, the game ends in a tie",Act
+California Jack is a trick-taking game played with four people.,Fact
+It uses a standard 52 playing card deck with Aces high and 2s low.,Fact
+The objective of California Jack is to get the most tricks.,Fact
+"Before gameplay can begin, a dealer must be selected.",Act
+"To do so, players must choose a random card from a shuffled deck.",Duty
+The player with the lowest card becomes the dealer. ,Fact
+Ties are broken with repeated drawings.,Fact
+The dealer shuffles the deck and then passes out six cards to each player.,Fact
+The remaining deck is placed face up to form the stock. ,Fact
+The first card showing establishes trump for the round.,Fact
+"The dealer leads the first card and, going clockwise, players try to follow suit or trump if they can.",Act
+The highest card takes the trick.,Fact
+"Starting with the winner of the trick and going clockwise, players take one card from the stock.",Act
+The winner then leads the next trick.,Act
+The round ends when all cards have been played.,Fact
+"Players receive 1 point for each Ace of trump, 2 of trump and Jack of trump won in a trick.",Fact
+1 point is also awarded to the player who has the highest total number of points in cards,Fact
+"10 = 10 points, ace = 4, king = 3, queen = 2, jack = 1",Fact
+The first player to reach 10 points wins the game.,Fact
